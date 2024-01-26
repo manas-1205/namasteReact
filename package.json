@@ -1,0 +1,22 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "using this to learn react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manas-1205/namasteReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manas-1205/namasteReact/issues"
+  },
+  "homepage": "https://github.com/manas-1205/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
