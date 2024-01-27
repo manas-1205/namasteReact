@@ -1,3 +1,9 @@
+// "react" refers to the one present in the node modules
+// Now, the browser treates this file as a normal JS file in which inports/exports are not allowed.
+// Hence in the script tag, we need to tell the browser that it is a React file/a module.
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // attributes for h1 here can be given in the 2nd parameter, object as comma separated key-value pair
 
 // 3rd element here is known as the children and both the 2nd and 3rd comes under props.
@@ -21,7 +27,7 @@ root.render(heading);
 */
 
 // creating the above HTML structuring
-const parent= React.createElement("div",{id:"parent"},React.createElement("div",{id:"child"},React.createElement("h1",{},"I'm h1 tag!")));
+const parent= React.createElement("div",{id:"parent"},React.createElement("div",{id:"child"},React.createElement("h1",{},"I'm h1 tag")));
 
 // rendering the above react element to the DOM
 root.render(parent);
